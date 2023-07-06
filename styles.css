@@ -1,0 +1,29 @@
+.parent {
+  height: 200vh;
+  position: relative;
+  padding: 1rem;
+  background-color: aqua;
+}
+.child {
+  padding: 1rem;
+}
+.child1 {
+  position: relative;
+  left: 1rem;
+  top: 10px;
+  background-color: greenyellow;
+}
+
+.child2 {
+  background-color: red;
+  position: absolute;
+  top: 1rem;
+  left: 4rem;
+}
+
+.child3 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: violet;
+}

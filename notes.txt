@@ -1,0 +1,19 @@
+By default static.
+
+the first position we are going to look at is position relative. relative position asks as static position. but it allows you to do 4 spesific things that you can change the top left right and bottom of this element. By using the properties with the same name:
+top
+left
+right
+bottom
+for example if we change the property left:10px. The element we are targeting relative to that position it will move in this example 10px to te left of the parent element. even overflowing the parent. the target elemet is taken out of the document flow. In general you will not be using postion relative. It makes it really hard to style. You will have to make all the other element position relative.
+
+the next popertiy we are going to to look at is position absolut. Position absolut gets use with the properties top left right and bottom.
+By adding a position absolut it changes this dragsticlly. The document completly ignores the element. Position absolut completely removes the elementfrom the document flow and everything else renders as if that elementdidnt exist. Position absolut is great if you want to stick something in a specific position but you dont want anything else to move around it. By using position absolut and adding a property like top it will move relative from the document not the parent, if you want it to position with the parent you have to set position reative/ or any position to the parent. So if your the element that has position absolut has left the parent it because it is absolut for the HTML/body of the document not the parent container.
+
+lets move to the next type of position witch is fix. Fix is very similar to absolut positionig but they are some caviats regarding it. If the parent containr has a postion set up it complete disregard the parent. Most of the time the position fixed is fixed complety from the HTML document not the parent. Something really unique to fixed they stay in the same place when you scroll.
+Example: if we change the hight of the parent really 200vh the fix element will stay in the position as you scroll.
+
+then there is position sticky. sticky is a combination between relative and fix position. the position stays relative but as sonn as your scroll it will stay on stick as your scroll
+
+
+https://www.youtube.com/watch?v=jx5jmI0UlXU
